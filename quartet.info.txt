@@ -1,0 +1,15 @@
+# <quartet:1.2.5 | KaiyuanHan | 2025-09-01>
+
+quarTeT: Telomere-to-telomere Toolkit
+version 1.2.5
+
+Usage: quartet.py <module> <parameters>
+
+Modules:
+  AssemblyMapper  |  am    Assemble draft genome.
+  GapFiller       |  gf    Fill gaps in draft genome.
+  TeloExplorer    |  te    Identify telomeres.
+  CentroMiner     |  cm    Identify centromere candidates.
+
+Use <module> -h for module usage.
+
