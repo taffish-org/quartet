@@ -1,9 +1,9 @@
 +TOOL:quartet
 ARGS
     <else>
-        quartet
+        quartet.py
     <main>
-        quartet ::*APP-ARGS*::
+        quartet.py ::*APP-ARGS*::
 RUN
     <container:taf-quartet-v1.2.5:ghcr.io/taffish-org/quartet:1.2.5>
         ::*MAIN*::
